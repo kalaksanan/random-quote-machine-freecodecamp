@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  #quote-box {
+    background-color: white;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 1px 2px #eee, 0px 2px 2px #e9e9e9, 0px 3px 2px #ccc,
+      0px 4px 2px #c9c9c9, 0px 5px 2px #bbb, 0px 6px 2px #b9b9b9,
+      0px 7px 2px #999, 0px 7px 2px rgba(0, 0, 0, 0.5),
+      0px 7px 2px rgba(0, 0, 0, 0.1), 0px 7px 2px rgba(0, 0, 0, 0.73),
+      0px 3px 5px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.37),
+      0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+    #text {
+      font-weight: 800;
+      .quote {
+        margin-right: 10px;
+      }
+    }
+    #author {
+      font-weight: 300;
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 5%;
+    }
+    button {
+      height: 5vh;
+      font-weight: bold;
+      border-radius: 5px;
+      border: none;
+      padding-right: 10px;
+      padding-left: 10px;
+      cursor: pointer;
+      margin-right: 5%;
+      color: white;
+    }
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+    }
+    #tweet-quote {
+      margin-left: 5%;
+    }
+  }
+}
